@@ -74,7 +74,7 @@ function TodoList() {
             </div>
             <button
               type="button"
-              className="text-red-500 hover:text-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
+              className="text-red-400 hover:text-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
               onClick={() => removeTodo(todo.id)}
             >
               <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
